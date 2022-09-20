@@ -65,8 +65,14 @@
       <change afterPath="$PROJECT_DIR$/../Library.csv" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Library.o" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Library_users.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/DriverManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pageobjects/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pageobjects/MainPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pageobjects/TestBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/LogIn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/waits/WaitForElement.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../clients.csv" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../lorem.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../out/production/javastart/.idea/.gitignore" afterDir="false" />
@@ -304,8 +310,9 @@
       <change beforePath="$PROJECT_DIR$/../Exercises/winda/ElevatorSimulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/winda/ElevatorSimulator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Exercises/winda/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/winda/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Exercises/współrzędne/PointController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/współrzędne/PointController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/driver/DriverManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../javastart.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../javastart.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/Calculator/Calculate.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/Calculator/Calculate.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/Calculator/Calculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/Calculator/Calculator.class" afterDir="false" />
@@ -454,16 +461,83 @@
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
-              <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+              <caret line="33" column="19" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/driver/DriverManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/TestBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/MainPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/LoginPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="670">
+              <caret line="54" column="5" lean-forward="true" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#235#236#0" expanded="true" />
+                <element signature="e#310#311#0" expanded="true" />
+                <element signature="e#1349#1350#0" expanded="true" />
+                <element signature="e#1372#1373#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/waits/WaitForElement.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/DriverManager.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/tests/LogIn.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="238">
+              <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -485,6 +559,12 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/DriverManager.java" />
+        <option value="$PROJECT_DIR$/src/test/java/driver/DriverManager.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pageobjects/TestBase.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pageobjects/MainPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/waits/WaitForElemnt.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pageobjects/LoginPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/LogIn.java" />
       </list>
     </option>
   </component>
@@ -519,6 +599,37 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="medicoverAuto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MedicoverAuto" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="medicoverAuto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MedicoverAuto" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="driver" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="medicoverAuto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MedicoverAuto" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pageobjects" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="medicoverAuto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MedicoverAuto" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -526,6 +637,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -540,6 +652,31 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="LogIn.LogIn" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MedicoverAuto" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.LogIn" />
+      <option name="METHOD_NAME" value="LogIn" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.LogIn.LogIn" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -551,22 +688,64 @@
       <option name="presentableId" value="Default" />
       <updated>1663694251562</updated>
     </task>
+    <task id="LOCAL-00001" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/modules.xml&#10;#&#9;.idea/vcs.xml&#10;#&#9;Exercises/Calculator/Calculate.java&#10;#&#9;Exercises/Calculator/Calculator.java&#10;#&#9;Exercises/Comapany.java&#10;#&#9;Exercises/Dice/Dice.java&#10;#&#9;Exercises/Dice/DiceTest.java&#10;#&#9;Exercises/Dom/Dom.java&#10;#&#9;Exercises/Dom/DomTest.java&#10;#&#9;Exercises/EvenAdder.java&#10;#&#9;Exercises/InfoOroslinach.java&#10;#&#9;Exercises/Inheritance/ExhaustPart.java&#10;#&#9;Exercises/Inheritance/MotoShop.java&#10;#&#9;Exercises/Inheritance/Part.java&#10;#&#9;Exercises/Inheritance/Tire.java&#10;#&#9;Exercises/Inheritance2/Bootcamp.java&#10;#&#9;Exercises/Inheritance2/Course.java&#10;#&#9;Exercises/Inheritance2/OnlineCourse.java&#10;#&#9;Exercises/Inheritance2/StationaryCourse.java&#10;#&#9;Exercises/Inheritance2/Test.java&#10;#&#9;Exercises/KlasaZad1.java&#10;#&#9;Exercises/Netto.java&#10;#&#9;Exercises/Roślina.java&#10;#&#9;Exercises/Shop/Offer.java&#10;#&#9;Exercises/Shop/Product.java&#10;#&#9;Exercises/Shop/Shop.java&#10;#&#9;Exercises/Table/Sum.java&#10;#&#9;Exercises/Table/Table.java&#10;#&#9;Exercises/Zadanie1.java&#10;#&#9;Exercises/algorytmika/Start.java&#10;#&#9;Exercises/app/PointApplication.java&#10;#&#9;Exercises/aukcja/Adress.java&#10;#&#9;Exercises/aukcja/Auction.java&#10;#&#9;Exercises/aukcja/AuctionSystem.java&#10;#&#9;Exercises/aukcja/Seller.java&#10;#&#9;Exercises/auto/Car.java&#10;#&#9;Exercises/auto/CarCheck.java&#10;#&#9;Exercises/bank/Adress.java&#10;#&#9;Exercises/bank/Bank.java&#10;#&#9;Exercises/bank/BankAccount.java&#10;#&#9;Exercises/bank/Credit.java&#10;#&#9;Exercises/bank/Person.java&#10;#&#9;Exercises/bankEquals/Adress.java&#10;#&#9;Exercises/bankEquals/BankAccount.java&#10;#&#9;Exercises/bankEquals/BankTest.java&#10;#&#9;Exercises/bankEquals/Client.java&#10;#&#9;Exercises/calculatorExceptions/CalcApp.java&#10;#&#9;Exercises/calculatorExceptions/Calculator.java&#10;#&#9;Exercises/calculatorExceptions/UnknownOperatorException.java&#10;#&#9;Exercises/cinema/CinemaSystem.java&#10;#&#9;Exercises/cinema/Client.java&#10;#&#9;Exercises/cinema/Movie.java&#10;#&#9;Exercises/cinema/SellingTickets.java&#10;#&#9;Exercises/cinema/Ticket.java&#10;#&#9;Exercises/cinema2/CinemaSystem.java&#10;#&#9;Exercises/cinema2/Client.java&#10;#&#9;Exercises/cinema2/Movie.java&#10;#&#9;Exercises/cinema2/SellingTickets.java&#10;#&#9;Exercises/cinema2/Ticket.java&#10;#&#9;Exercises/computerShop/Computer.java&#10;#&#9;Exercises/computerShop/DataStore.java&#10;#&#9;Exercises/computerShop/Shop.java&#10;#&#9;Exercises/data/Point.java&#10;#&#9;Exercises/discount/Client.java&#10;#&#9;Exercises/discount/DiscountApp.java&#10;#&#9;Exercises/discount/DiscountService.java&#10;#&#9;Exercises/discount/PrintService.java&#10;#&#9;Exercises/enumm/Order.java&#10;#&#9;Exercises/enumm/OrderStatus.java&#10;#&#9;Exercises/enumm/Pizza.java&#10;#&#9;Exercises/enumm/Pizzeria.java&#10;#&#9;Exercises/enumm/ShopManager.java&#10;#&#9;Exercises/exceptions/AgeViolationException.java&#10;#&#9;Exercises/exceptions/Competition.java&#10;#&#9;Exercises/exceptions/CompetitionApp.java&#10;#&#9;Exercises/exceptions/CompetitionControlle.java&#10;#&#9;Exercises/exceptions/DuplicateException.java&#10;#&#9;Exercises/exceptions/MaxCompetitorsException.java&#10;#&#9;Exercises/exceptions/Participant.java&#10;#&#9;Exercises/hospital/Hospital.java&#10;#&#9;Exercises/hospital/HospitalApp.java&#10;#&#9;Exercises/hospital/Patient.java&#10;#&#9;Exercises/hsopitalJavaStart/Doctor.java&#10;#&#9;Exercises/hsopitalJavaStart/Hospital.java&#10;#&#9;Exercises/hsopitalJavaStart/HospitalApp.java&#10;#&#9;Exercises/hsopitalJavaStart/Nurse.java&#10;#&#9;Exercises/hsopitalJavaStart/Person.java&#10;#&#9;Exercises/kuchenny/przelicznik/Kuchnia.java&#10;#&#9;Exercises/kuchenny/przelicznik/Przelicznik.java&#10;#&#9;Exercises/losowanie/Losowanie.java&#10;#&#9;Exercises/losowanie/LosowanieTest.java&#10;#&#9;Exercises/moneta/Moneta.java&#10;#&#9;Exercises/moneta/OrzelCzyReszka.java&#10;#&#9;Exercises/petle/For.java&#10;#&#9;Exercises/polimorfizm/AttackCharacter.java&#10;#&#9;Exercises/polimorfizm/BattleSimulator.java&#10;#&#9;Exercises/polimorfizm/DefenseCharacter.java&#10;#&#9;Exercises/polimorfizm/GameCharacter.java&#10;#&#9;Exercises/polimorfizm/GameSimulator.java&#10;#&#9;Exercises/polimorfizm/Team.java&#10;#&#9;Exercises/przeliczanie/Przeliczanie.java&#10;#&#9;Exercises/przeliczanie/ZamianaCzasu.java&#10;#&#9;Exercises/przeliczanie/ZamianaJednostek.java&#10;#&#9;Exercises/scanner/calc.java&#10;#&#9;Exercises/scanner/obliczenia.java&#10;#&#9;Exercises/string/ChangeLetters.java&#10;#&#9;Exercises/string/Words.java&#10;#&#9;Exercises/suma/Suma.java&#10;#&#9;Exercises/superka/Apple.java&#10;#&#9;Exercises/superka/Fruit.java&#10;#&#9;Exercises/superka/GroceryShop.java&#10;#&#9;Exercises/tables/Tables.java&#10;#&#9;Exercises/temperature/Temp.java&#10;#&#9;Exercises/temperature/TempClass.java&#10;#&#9;Exercises/universytet/Student.java&#10;#&#9;Exercises/universytet/Univers.java&#10;#&#9;Exercises/winda/Elevator.java&#10;#&#9;Exercises/winda/ElevatorSimulator.java&#10;#&#9;Exercises/winda/Person.java&#10;#&#9;Exercises/współrzędne/PointController.java&#10;#&#9;javastart.iml&#10;#&#9;out/production/javastart/Exercises/Calculator/Calculate.class&#10;#&#9;out/production/javastart/Exercises/Calculator/Calculator.class&#10;#&#9;out/production/javastart/Exercises/Comapany.class&#10;#&#9;out/production/javastart/Exercises/Dice/Dice.class&#10;#&#9;out/production/javastart/Exercises/Dice/DiceTest.class&#10;#&#9;out/production/javastart/Exercises/Dom/Dom.class&#10;#&#9;out/production/javastart/Exercises/Dom/DomTest.class&#10;#&#9;out/production/javastart/Exercises/EvenAdder.class&#10;#&#9;out/production/javastart/Exercises/InfoOroslinach.class&#10;#&#9;out/production/javastart/Exercises/Inheritance/ExhaustPart.class&#10;#&#9;out/production/javastart/Exercises/Inheritance/MotoShop.class&#10;#&#9;out/production/javastart/Exercises/Inheritance/Part.class&#10;#&#9;out/production/javastart/Exercises/Inheritance/Tire.class&#10;#&#9;out/production/javastart/Exercises/Inheritance2/Bootcamp.class&#10;#&#9;out/production/javastart/Exercises/Inheritance2/Course.class&#10;#&#9;out/production/javastart/Exercises/Inheritance2/OnlineCourse.class&#10;#&#9;out/production/javastart/Exercises/Inheritance2/StationaryCourse.class&#10;#&#9;out/production/javastart/Exercises/Inheritance2/Test.class&#10;#&#9;out/production/javastart/Exercises/KlasaZad1.class&#10;#&#9;out/production/javastart/Exercises/Netto.class&#10;#&#9;out/production/javastart/Exercises/Roślina.class&#10;#&#9;out/production/javastart/Exercises/Shop/Offer.class&#10;#&#9;out/production/javastart/Exercises/Shop/Product.class&#10;#&#9;out/production/javastart/Exercises/Shop/Shop.class&#10;#&#9;out/production/javastart/Exercises/Table/Sum.class&#10;#&#9;out/production/javastart/Exercises/Table/Table.class&#10;#&#9;out/production/javastart/Exercises/Zadanie1.class&#10;#&#9;out/production/javastart/Exercises/algorytmika/Start.class&#10;#&#9;out/production/javastart/Exercises/app/PointApplication.class&#10;#&#9;out/production/javastart/Exercises/aukcja/Adress.class&#10;#&#9;out/production/javastart/Exercises/aukcja/Auction.class&#10;#&#9;out/production/javastart/Exercises/aukcja/AuctionSystem.class&#10;#&#9;out/production/javastart/Exercises/aukcja/Seller.class&#10;#&#9;out/production/javastart/Exercises/auto/Car.class&#10;#&#9;out/production/javastart/Exercises/auto/CarCheck.class&#10;#&#9;out/production/javastart/Exercises/bank/Adress.class&#10;#&#9;out/production/javastart/Exercises/bank/Bank.class&#10;#&#9;out/production/javastart/Exercises/bank/BankAccount.class&#10;#&#9;out/production/javastart/Exercises/bank/Credit.class&#10;#&#9;out/production/javastart/Exercises/bank/Person.class&#10;#&#9;out/production/javastart/Exercises/bankEquals/Address.class&#10;#&#9;out/production/javastart/Exercises/bankEquals/BankAccount.class&#10;#&#9;out/production/javastart/Exercises/bankEquals/BankTest.class&#10;#&#9;out/production/javastart/Exercises/bankEquals/Client.class&#10;#&#9;out/production/javastart/Exercises/calculatorExceptions/CalcApp.class&#10;#&#9;out/production/javastart/Exercises/calculatorExceptions/Calculator.class&#10;#&#9;out/production/javastart/Exercises/calculatorExceptions/UnknownOperatorException.class&#10;#&#9;out/production/javastart/Exercises/cinema/CinemaSystem.class&#10;#&#9;out/production/javastart/Exercises/cinema/Client.class&#10;#&#9;out/production/javastart/Exercises/cinema/Movie.class&#10;#&#9;out/production/javastart/Exercises/cinema/SellingTickets.class&#10;#&#9;out/production/javastart/Exercises/cinema/Ticket.class&#10;#&#9;out/production/javastart/Exercises/cinema2/CinemaSystem.class&#10;#&#9;out/production/javastart/Exercises/cinema2/Client.class&#10;#&#9;out/production/javastart/Exercises/cinema2/Movie.class&#10;#&#9;out/production/javastart/Exercises/cinema2/SellingTickets.class&#10;#&#9;out/production/javastart/Exercises/cinema2/Ticket.class&#10;#&#9;out/production/javastart/Exercises/computerShop/Computer.class&#10;#&#9;out/production/javastart/Exercises/computerShop/DataStore.class&#10;#&#9;out/production/javastart/Exercises/computerShop/Shop.class&#10;#&#9;out/production/javastart/Exercises/data/Point.class&#10;#&#9;out/production/javastart/Exercises/discount/Client.class&#10;#&#9;out/production/javastart/Exercises/discount/DiscountApp.class&#10;#&#9;out/production/javastart/Exercises/discount/DiscountService.class&#10;#&#9;out/production/javastart/Exercises/discount/PrintService.class&#10;#&#9;out/production/javastart/Exercises/enumm/Order.class&#10;#&#9;out/production/javastart/Exercises/enumm/OrderStatus.class&#10;#&#9;out/production/javastart/Exercises/enumm/Pizza.class&#10;#&#9;out/production/javastart/Exercises/enumm/Pizzeria.class&#10;#&#9;out/production/javastart/Exercises/enumm/ShopManager.class&#10;#&#9;out/production/javastart/Exercises/exceptions/AgeViolationException.class&#10;#&#9;out/production/javastart/Exercises/exceptions/Competition.class&#10;#&#9;out/production/javastart/Exercises/exceptions/CompetitionApp.class&#10;#&#9;out/production/javastart/Exercises/exceptions/CompetitionController.class&#10;#&#9;out/production/javastart/Exercises/exceptions/DuplicateException.class&#10;#&#9;out/production/javastart/Exercises/exceptions/MaxCompetitorsException.class&#10;#&#9;out/production/javastart/Exercises/exceptions/Participant.class&#10;#&#9;out/production/javastart/Exercises/hospital/Hospital.class&#10;#&#9;out/production/javastart/Exercises/hospital/HospitalApp.class&#10;#&#9;out/production/javastart/Exercises/hospital/Patient.class&#10;#&#9;out/production/javastart/Exercises/hsopitalJavaStart/Doctor.class&#10;#&#9;out/production/javastart/Exercises/hsopitalJavaStart/Hospital.class&#10;#&#9;out/production/javastart/Exercises/hsopitalJavaStart/HospitalApp.class&#10;#&#9;out/production/javastart/Exercises/hsopitalJavaStart/Nurse.class&#10;#&#9;out/production/javastart/Exercises/hsopitalJavaStart/Person.class&#10;#&#9;out/production/javastart/Exercises/kuchenny/przelicznik/Kuchnia.class&#10;#&#9;out/production/javastart/Exercises/kuchenny/przelicznik/Przelicznik.class&#10;#&#9;out/production/javastart/Exercises/losowanie/Losowanie.class&#10;#&#9;out/production/javastart/Exercises/losowanie/LosowanieTest.class&#10;#&#9;out/production/javastart/Exercises/moneta/Moneta.class&#10;#&#9;out/production/javastart/Exercises/moneta/OrzelCzyReszka.class&#10;#&#9;out/production/javastart/Exercises/petle/For.class&#10;#&#9;out/production/javastart/Exercises/polimorfizm/AttackCharacter.class&#10;#&#9;out/production/javastart/Exercises/polimorfizm/BattleSimulator.class&#10;#&#9;out/production/javastart/Exercises/polimorfizm/DefenseCharacter.class&#10;#&#9;out/production/javastart/Exercises/polimorfizm/GameCharacter.class&#10;#&#9;out/production/javastart/Exercises/polimorfizm/GameSimulator.class&#10;#&#9;out/production/javastart/Exercises/polimorfizm/Team.class&#10;#&#9;out/production/javastart/Exercises/przeliczanie/Przeliczanie.class&#10;#&#9;out/production/javastart/Exercises/przeliczanie/ZamianaCzasu.class&#10;#&#9;out/production/javastart/Exercises/przeliczanie/ZamianaJednostek.class&#10;#&#9;out/production/javastart/Exercises/scanner/calc.class&#10;#&#9;out/production/javastart/Exercises/scanner/obliczenia.class&#10;#&#9;out/production/javastart/Exercises/string/ChangeLetters.class&#10;#&#9;out/production/javastart/Exercises/string/Words.class&#10;#&#9;out/production/javastart/Exercises/suma/Suma.class&#10;#&#9;out/production/javastart/Exercises/superka/Apple.class&#10;#&#9;out/production/javastart/Exercises/superka/Fruit.class&#10;#&#9;out/production/javastart/Exercises/superka/GroceryShop.class&#10;#&#9;out/production/javastart/Exercises/tables/Tables.class&#10;#&#9;out/production/javastart/Exercises/temperature/Temp.class&#10;#&#9;out/production/javastart/Exercises/temperature/TempClass.class&#10;#&#9;out/production/javastart/Exercises/universytet/Student.class&#10;#&#9;out/production/javastart/Exercises/universytet/Univers.class&#10;#&#9;out/production/javastart/Exercises/winda/Elevator.class&#10;#&#9;out/production/javastart/Exercises/winda/ElevatorSimulator.class&#10;#&#9;out/production/javastart/Exercises/winda/Person.class&#10;#&#9;out/production/javastart/Exercises/współrzędne/PointController.class&#10;#&#9;out/production/javastart/pl/javastart/application/PhoneTest.class&#10;#&#9;out/production/javastart/pl/javastart/library/app/LibraryApp.class&#10;#&#9;out/production/javastart/pl/javastart/logic/Charger.class&#10;#&#9;out/production/javastart/pl/javastart/model/model/Telephone.class&#10;#&#9;pl/javastart/application/PhoneTest.java&#10;#&#9;pl/javastart/library/app/LibraryApp.java&#10;#&#9;pl/javastart/library/io/DataReader.java&#10;#&#9;pl/javastart/library/model/Book.java&#10;#&#9;pl/javastart/library/model/Publication.java&#10;#&#9;pl/javastart/logic/Charger.java&#10;#&#9;pl/javastart/model/model/Telephone.java">
+      <created>1663695394763</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1663695394763</updated>
+    </task>
+    <task id="LOCAL-00002" summary="#driverManagerClass">
+      <created>1663695606444</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1663695606444</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="LogIn_LogIn - 2022.09.20 at 19h 49m 09s.xml">
+      <configuration name="LogIn.LogIn" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LogIn_LogIn - 2022.09.20 at 19h 53m 20s.xml">
+      <configuration name="LogIn.LogIn" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LogIn_LogIn - 2022.09.20 at 19h 55m 52s.xml">
+      <configuration name="LogIn.LogIn" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LogIn_LogIn - 2022.09.20 at 19h 58m 39s.xml">
+      <configuration name="LogIn.LogIn" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LogIn_LogIn - 2022.09.20 at 19h 59m 15s.xml">
+      <configuration name="LogIn.LogIn" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LogIn_LogIn - 2022.09.20 at 20h 00m 51s.xml">
+      <configuration name="LogIn.LogIn" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LogIn_LogIn - 2022.09.20 at 20h 03m 14s.xml">
+      <configuration name="LogIn.LogIn" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LogIn_LogIn - 2022.09.20 at 20h 06m 54s.xml">
+      <configuration name="LogIn.LogIn" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="1708" y="0" width="1734" height="1407" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25268817" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25268817" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" weight="0.32967034" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32967034" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -584,18 +763,80 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/modules.xml&#10;#&#9;.idea/vcs.xml&#10;#&#9;Exercises/Calculator/Calculate.java&#10;#&#9;Exercises/Calculator/Calculator.java&#10;#&#9;Exercises/Comapany.java&#10;#&#9;Exercises/Dice/Dice.java&#10;#&#9;Exercises/Dice/DiceTest.java&#10;#&#9;Exercises/Dom/Dom.java&#10;#&#9;Exercises/Dom/DomTest.java&#10;#&#9;Exercises/EvenAdder.java&#10;#&#9;Exercises/InfoOroslinach.java&#10;#&#9;Exercises/Inheritance/ExhaustPart.java&#10;#&#9;Exercises/Inheritance/MotoShop.java&#10;#&#9;Exercises/Inheritance/Part.java&#10;#&#9;Exercises/Inheritance/Tire.java&#10;#&#9;Exercises/Inheritance2/Bootcamp.java&#10;#&#9;Exercises/Inheritance2/Course.java&#10;#&#9;Exercises/Inheritance2/OnlineCourse.java&#10;#&#9;Exercises/Inheritance2/StationaryCourse.java&#10;#&#9;Exercises/Inheritance2/Test.java&#10;#&#9;Exercises/KlasaZad1.java&#10;#&#9;Exercises/Netto.java&#10;#&#9;Exercises/Roślina.java&#10;#&#9;Exercises/Shop/Offer.java&#10;#&#9;Exercises/Shop/Product.java&#10;#&#9;Exercises/Shop/Shop.java&#10;#&#9;Exercises/Table/Sum.java&#10;#&#9;Exercises/Table/Table.java&#10;#&#9;Exercises/Zadanie1.java&#10;#&#9;Exercises/algorytmika/Start.java&#10;#&#9;Exercises/app/PointApplication.java&#10;#&#9;Exercises/aukcja/Adress.java&#10;#&#9;Exercises/aukcja/Auction.java&#10;#&#9;Exercises/aukcja/AuctionSystem.java&#10;#&#9;Exercises/aukcja/Seller.java&#10;#&#9;Exercises/auto/Car.java&#10;#&#9;Exercises/auto/CarCheck.java&#10;#&#9;Exercises/bank/Adress.java&#10;#&#9;Exercises/bank/Bank.java&#10;#&#9;Exercises/bank/BankAccount.java&#10;#&#9;Exercises/bank/Credit.java&#10;#&#9;Exercises/bank/Person.java&#10;#&#9;Exercises/bankEquals/Adress.java&#10;#&#9;Exercises/bankEquals/BankAccount.java&#10;#&#9;Exercises/bankEquals/BankTest.java&#10;#&#9;Exercises/bankEquals/Client.java&#10;#&#9;Exercises/calculatorExceptions/CalcApp.java&#10;#&#9;Exercises/calculatorExceptions/Calculator.java&#10;#&#9;Exercises/calculatorExceptions/UnknownOperatorException.java&#10;#&#9;Exercises/cinema/CinemaSystem.java&#10;#&#9;Exercises/cinema/Client.java&#10;#&#9;Exercises/cinema/Movie.java&#10;#&#9;Exercises/cinema/SellingTickets.java&#10;#&#9;Exercises/cinema/Ticket.java&#10;#&#9;Exercises/cinema2/CinemaSystem.java&#10;#&#9;Exercises/cinema2/Client.java&#10;#&#9;Exercises/cinema2/Movie.java&#10;#&#9;Exercises/cinema2/SellingTickets.java&#10;#&#9;Exercises/cinema2/Ticket.java&#10;#&#9;Exercises/computerShop/Computer.java&#10;#&#9;Exercises/computerShop/DataStore.java&#10;#&#9;Exercises/computerShop/Shop.java&#10;#&#9;Exercises/data/Point.java&#10;#&#9;Exercises/discount/Client.java&#10;#&#9;Exercises/discount/DiscountApp.java&#10;#&#9;Exercises/discount/DiscountService.java&#10;#&#9;Exercises/discount/PrintService.java&#10;#&#9;Exercises/enumm/Order.java&#10;#&#9;Exercises/enumm/OrderStatus.java&#10;#&#9;Exercises/enumm/Pizza.java&#10;#&#9;Exercises/enumm/Pizzeria.java&#10;#&#9;Exercises/enumm/ShopManager.java&#10;#&#9;Exercises/exceptions/AgeViolationException.java&#10;#&#9;Exercises/exceptions/Competition.java&#10;#&#9;Exercises/exceptions/CompetitionApp.java&#10;#&#9;Exercises/exceptions/CompetitionControlle.java&#10;#&#9;Exercises/exceptions/DuplicateException.java&#10;#&#9;Exercises/exceptions/MaxCompetitorsException.java&#10;#&#9;Exercises/exceptions/Participant.java&#10;#&#9;Exercises/hospital/Hospital.java&#10;#&#9;Exercises/hospital/HospitalApp.java&#10;#&#9;Exercises/hospital/Patient.java&#10;#&#9;Exercises/hsopitalJavaStart/Doctor.java&#10;#&#9;Exercises/hsopitalJavaStart/Hospital.java&#10;#&#9;Exercises/hsopitalJavaStart/HospitalApp.java&#10;#&#9;Exercises/hsopitalJavaStart/Nurse.java&#10;#&#9;Exercises/hsopitalJavaStart/Person.java&#10;#&#9;Exercises/kuchenny/przelicznik/Kuchnia.java&#10;#&#9;Exercises/kuchenny/przelicznik/Przelicznik.java&#10;#&#9;Exercises/losowanie/Losowanie.java&#10;#&#9;Exercises/losowanie/LosowanieTest.java&#10;#&#9;Exercises/moneta/Moneta.java&#10;#&#9;Exercises/moneta/OrzelCzyReszka.java&#10;#&#9;Exercises/petle/For.java&#10;#&#9;Exercises/polimorfizm/AttackCharacter.java&#10;#&#9;Exercises/polimorfizm/BattleSimulator.java&#10;#&#9;Exercises/polimorfizm/DefenseCharacter.java&#10;#&#9;Exercises/polimorfizm/GameCharacter.java&#10;#&#9;Exercises/polimorfizm/GameSimulator.java&#10;#&#9;Exercises/polimorfizm/Team.java&#10;#&#9;Exercises/przeliczanie/Przeliczanie.java&#10;#&#9;Exercises/przeliczanie/ZamianaCzasu.java&#10;#&#9;Exercises/przeliczanie/ZamianaJednostek.java&#10;#&#9;Exercises/scanner/calc.java&#10;#&#9;Exercises/scanner/obliczenia.java&#10;#&#9;Exercises/string/ChangeLetters.java&#10;#&#9;Exercises/string/Words.java&#10;#&#9;Exercises/suma/Suma.java&#10;#&#9;Exercises/superka/Apple.java&#10;#&#9;Exercises/superka/Fruit.java&#10;#&#9;Exercises/superka/GroceryShop.java&#10;#&#9;Exercises/tables/Tables.java&#10;#&#9;Exercises/temperature/Temp.java&#10;#&#9;Exercises/temperature/TempClass.java&#10;#&#9;Exercises/universytet/Student.java&#10;#&#9;Exercises/universytet/Univers.java&#10;#&#9;Exercises/winda/Elevator.java&#10;#&#9;Exercises/winda/ElevatorSimulator.java&#10;#&#9;Exercises/winda/Person.java&#10;#&#9;Exercises/współrzędne/PointController.java&#10;#&#9;javastart.iml&#10;#&#9;out/production/javastart/Exercises/Calculator/Calculate.class&#10;#&#9;out/production/javastart/Exercises/Calculator/Calculator.class&#10;#&#9;out/production/javastart/Exercises/Comapany.class&#10;#&#9;out/production/javastart/Exercises/Dice/Dice.class&#10;#&#9;out/production/javastart/Exercises/Dice/DiceTest.class&#10;#&#9;out/production/javastart/Exercises/Dom/Dom.class&#10;#&#9;out/production/javastart/Exercises/Dom/DomTest.class&#10;#&#9;out/production/javastart/Exercises/EvenAdder.class&#10;#&#9;out/production/javastart/Exercises/InfoOroslinach.class&#10;#&#9;out/production/javastart/Exercises/Inheritance/ExhaustPart.class&#10;#&#9;out/production/javastart/Exercises/Inheritance/MotoShop.class&#10;#&#9;out/production/javastart/Exercises/Inheritance/Part.class&#10;#&#9;out/production/javastart/Exercises/Inheritance/Tire.class&#10;#&#9;out/production/javastart/Exercises/Inheritance2/Bootcamp.class&#10;#&#9;out/production/javastart/Exercises/Inheritance2/Course.class&#10;#&#9;out/production/javastart/Exercises/Inheritance2/OnlineCourse.class&#10;#&#9;out/production/javastart/Exercises/Inheritance2/StationaryCourse.class&#10;#&#9;out/production/javastart/Exercises/Inheritance2/Test.class&#10;#&#9;out/production/javastart/Exercises/KlasaZad1.class&#10;#&#9;out/production/javastart/Exercises/Netto.class&#10;#&#9;out/production/javastart/Exercises/Roślina.class&#10;#&#9;out/production/javastart/Exercises/Shop/Offer.class&#10;#&#9;out/production/javastart/Exercises/Shop/Product.class&#10;#&#9;out/production/javastart/Exercises/Shop/Shop.class&#10;#&#9;out/production/javastart/Exercises/Table/Sum.class&#10;#&#9;out/production/javastart/Exercises/Table/Table.class&#10;#&#9;out/production/javastart/Exercises/Zadanie1.class&#10;#&#9;out/production/javastart/Exercises/algorytmika/Start.class&#10;#&#9;out/production/javastart/Exercises/app/PointApplication.class&#10;#&#9;out/production/javastart/Exercises/aukcja/Adress.class&#10;#&#9;out/production/javastart/Exercises/aukcja/Auction.class&#10;#&#9;out/production/javastart/Exercises/aukcja/AuctionSystem.class&#10;#&#9;out/production/javastart/Exercises/aukcja/Seller.class&#10;#&#9;out/production/javastart/Exercises/auto/Car.class&#10;#&#9;out/production/javastart/Exercises/auto/CarCheck.class&#10;#&#9;out/production/javastart/Exercises/bank/Adress.class&#10;#&#9;out/production/javastart/Exercises/bank/Bank.class&#10;#&#9;out/production/javastart/Exercises/bank/BankAccount.class&#10;#&#9;out/production/javastart/Exercises/bank/Credit.class&#10;#&#9;out/production/javastart/Exercises/bank/Person.class&#10;#&#9;out/production/javastart/Exercises/bankEquals/Address.class&#10;#&#9;out/production/javastart/Exercises/bankEquals/BankAccount.class&#10;#&#9;out/production/javastart/Exercises/bankEquals/BankTest.class&#10;#&#9;out/production/javastart/Exercises/bankEquals/Client.class&#10;#&#9;out/production/javastart/Exercises/calculatorExceptions/CalcApp.class&#10;#&#9;out/production/javastart/Exercises/calculatorExceptions/Calculator.class&#10;#&#9;out/production/javastart/Exercises/calculatorExceptions/UnknownOperatorException.class&#10;#&#9;out/production/javastart/Exercises/cinema/CinemaSystem.class&#10;#&#9;out/production/javastart/Exercises/cinema/Client.class&#10;#&#9;out/production/javastart/Exercises/cinema/Movie.class&#10;#&#9;out/production/javastart/Exercises/cinema/SellingTickets.class&#10;#&#9;out/production/javastart/Exercises/cinema/Ticket.class&#10;#&#9;out/production/javastart/Exercises/cinema2/CinemaSystem.class&#10;#&#9;out/production/javastart/Exercises/cinema2/Client.class&#10;#&#9;out/production/javastart/Exercises/cinema2/Movie.class&#10;#&#9;out/production/javastart/Exercises/cinema2/SellingTickets.class&#10;#&#9;out/production/javastart/Exercises/cinema2/Ticket.class&#10;#&#9;out/production/javastart/Exercises/computerShop/Computer.class&#10;#&#9;out/production/javastart/Exercises/computerShop/DataStore.class&#10;#&#9;out/production/javastart/Exercises/computerShop/Shop.class&#10;#&#9;out/production/javastart/Exercises/data/Point.class&#10;#&#9;out/production/javastart/Exercises/discount/Client.class&#10;#&#9;out/production/javastart/Exercises/discount/DiscountApp.class&#10;#&#9;out/production/javastart/Exercises/discount/DiscountService.class&#10;#&#9;out/production/javastart/Exercises/discount/PrintService.class&#10;#&#9;out/production/javastart/Exercises/enumm/Order.class&#10;#&#9;out/production/javastart/Exercises/enumm/OrderStatus.class&#10;#&#9;out/production/javastart/Exercises/enumm/Pizza.class&#10;#&#9;out/production/javastart/Exercises/enumm/Pizzeria.class&#10;#&#9;out/production/javastart/Exercises/enumm/ShopManager.class&#10;#&#9;out/production/javastart/Exercises/exceptions/AgeViolationException.class&#10;#&#9;out/production/javastart/Exercises/exceptions/Competition.class&#10;#&#9;out/production/javastart/Exercises/exceptions/CompetitionApp.class&#10;#&#9;out/production/javastart/Exercises/exceptions/CompetitionController.class&#10;#&#9;out/production/javastart/Exercises/exceptions/DuplicateException.class&#10;#&#9;out/production/javastart/Exercises/exceptions/MaxCompetitorsException.class&#10;#&#9;out/production/javastart/Exercises/exceptions/Participant.class&#10;#&#9;out/production/javastart/Exercises/hospital/Hospital.class&#10;#&#9;out/production/javastart/Exercises/hospital/HospitalApp.class&#10;#&#9;out/production/javastart/Exercises/hospital/Patient.class&#10;#&#9;out/production/javastart/Exercises/hsopitalJavaStart/Doctor.class&#10;#&#9;out/production/javastart/Exercises/hsopitalJavaStart/Hospital.class&#10;#&#9;out/production/javastart/Exercises/hsopitalJavaStart/HospitalApp.class&#10;#&#9;out/production/javastart/Exercises/hsopitalJavaStart/Nurse.class&#10;#&#9;out/production/javastart/Exercises/hsopitalJavaStart/Person.class&#10;#&#9;out/production/javastart/Exercises/kuchenny/przelicznik/Kuchnia.class&#10;#&#9;out/production/javastart/Exercises/kuchenny/przelicznik/Przelicznik.class&#10;#&#9;out/production/javastart/Exercises/losowanie/Losowanie.class&#10;#&#9;out/production/javastart/Exercises/losowanie/LosowanieTest.class&#10;#&#9;out/production/javastart/Exercises/moneta/Moneta.class&#10;#&#9;out/production/javastart/Exercises/moneta/OrzelCzyReszka.class&#10;#&#9;out/production/javastart/Exercises/petle/For.class&#10;#&#9;out/production/javastart/Exercises/polimorfizm/AttackCharacter.class&#10;#&#9;out/production/javastart/Exercises/polimorfizm/BattleSimulator.class&#10;#&#9;out/production/javastart/Exercises/polimorfizm/DefenseCharacter.class&#10;#&#9;out/production/javastart/Exercises/polimorfizm/GameCharacter.class&#10;#&#9;out/production/javastart/Exercises/polimorfizm/GameSimulator.class&#10;#&#9;out/production/javastart/Exercises/polimorfizm/Team.class&#10;#&#9;out/production/javastart/Exercises/przeliczanie/Przeliczanie.class&#10;#&#9;out/production/javastart/Exercises/przeliczanie/ZamianaCzasu.class&#10;#&#9;out/production/javastart/Exercises/przeliczanie/ZamianaJednostek.class&#10;#&#9;out/production/javastart/Exercises/scanner/calc.class&#10;#&#9;out/production/javastart/Exercises/scanner/obliczenia.class&#10;#&#9;out/production/javastart/Exercises/string/ChangeLetters.class&#10;#&#9;out/production/javastart/Exercises/string/Words.class&#10;#&#9;out/production/javastart/Exercises/suma/Suma.class&#10;#&#9;out/production/javastart/Exercises/superka/Apple.class&#10;#&#9;out/production/javastart/Exercises/superka/Fruit.class&#10;#&#9;out/production/javastart/Exercises/superka/GroceryShop.class&#10;#&#9;out/production/javastart/Exercises/tables/Tables.class&#10;#&#9;out/production/javastart/Exercises/temperature/Temp.class&#10;#&#9;out/production/javastart/Exercises/temperature/TempClass.class&#10;#&#9;out/production/javastart/Exercises/universytet/Student.class&#10;#&#9;out/production/javastart/Exercises/universytet/Univers.class&#10;#&#9;out/production/javastart/Exercises/winda/Elevator.class&#10;#&#9;out/production/javastart/Exercises/winda/ElevatorSimulator.class&#10;#&#9;out/production/javastart/Exercises/winda/Person.class&#10;#&#9;out/production/javastart/Exercises/współrzędne/PointController.class&#10;#&#9;out/production/javastart/pl/javastart/application/PhoneTest.class&#10;#&#9;out/production/javastart/pl/javastart/library/app/LibraryApp.class&#10;#&#9;out/production/javastart/pl/javastart/logic/Charger.class&#10;#&#9;out/production/javastart/pl/javastart/model/model/Telephone.class&#10;#&#9;pl/javastart/application/PhoneTest.java&#10;#&#9;pl/javastart/library/app/LibraryApp.java&#10;#&#9;pl/javastart/library/io/DataReader.java&#10;#&#9;pl/javastart/library/model/Book.java&#10;#&#9;pl/javastart/library/model/Publication.java&#10;#&#9;pl/javastart/logic/Charger.java&#10;#&#9;pl/javastart/model/model/Telephone.java" />
+    <MESSAGE value="#driverManagerClass" />
+    <option name="LAST_COMMIT_MESSAGE" value="#driverManagerClass" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
-          <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+          <caret line="33" column="19" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DriverManager.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/driver/DriverManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="476">
+          <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/MainPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/waits/WaitForElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="670">
+          <caret line="54" column="5" lean-forward="true" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#235#236#0" expanded="true" />
+            <element signature="e#310#311#0" expanded="true" />
+            <element signature="e#1349#1350#0" expanded="true" />
+            <element signature="e#1372#1373#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/LogIn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
