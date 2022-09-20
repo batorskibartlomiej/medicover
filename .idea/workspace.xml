@@ -1,0 +1,619 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ad3caeee-d26e-4e8f-975e-db5a6a518ca3" name="Default Changelist" comment="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/modules.xml&#10;#&#9;.idea/vcs.xml&#10;#&#9;Exercises/Calculator/Calculate.java&#10;#&#9;Exercises/Calculator/Calculator.java&#10;#&#9;Exercises/Comapany.java&#10;#&#9;Exercises/Dice/Dice.java&#10;#&#9;Exercises/Dice/DiceTest.java&#10;#&#9;Exercises/Dom/Dom.java&#10;#&#9;Exercises/Dom/DomTest.java&#10;#&#9;Exercises/EvenAdder.java&#10;#&#9;Exercises/InfoOroslinach.java&#10;#&#9;Exercises/Inheritance/ExhaustPart.java&#10;#&#9;Exercises/Inheritance/MotoShop.java&#10;#&#9;Exercises/Inheritance/Part.java&#10;#&#9;Exercises/Inheritance/Tire.java&#10;#&#9;Exercises/Inheritance2/Bootcamp.java&#10;#&#9;Exercises/Inheritance2/Course.java&#10;#&#9;Exercises/Inheritance2/OnlineCourse.java&#10;#&#9;Exercises/Inheritance2/StationaryCourse.java&#10;#&#9;Exercises/Inheritance2/Test.java&#10;#&#9;Exercises/KlasaZad1.java&#10;#&#9;Exercises/Netto.java&#10;#&#9;Exercises/Roślina.java&#10;#&#9;Exercises/Shop/Offer.java&#10;#&#9;Exercises/Shop/Product.java&#10;#&#9;Exercises/Shop/Shop.java&#10;#&#9;Exercises/Table/Sum.java&#10;#&#9;Exercises/Table/Table.java&#10;#&#9;Exercises/Zadanie1.java&#10;#&#9;Exercises/algorytmika/Start.java&#10;#&#9;Exercises/app/PointApplication.java&#10;#&#9;Exercises/aukcja/Adress.java&#10;#&#9;Exercises/aukcja/Auction.java&#10;#&#9;Exercises/aukcja/AuctionSystem.java&#10;#&#9;Exercises/aukcja/Seller.java&#10;#&#9;Exercises/auto/Car.java&#10;#&#9;Exercises/auto/CarCheck.java&#10;#&#9;Exercises/bank/Adress.java&#10;#&#9;Exercises/bank/Bank.java&#10;#&#9;Exercises/bank/BankAccount.java&#10;#&#9;Exercises/bank/Credit.java&#10;#&#9;Exercises/bank/Person.java&#10;#&#9;Exercises/bankEquals/Adress.java&#10;#&#9;Exercises/bankEquals/BankAccount.java&#10;#&#9;Exercises/bankEquals/BankTest.java&#10;#&#9;Exercises/bankEquals/Client.java&#10;#&#9;Exercises/calculatorExceptions/CalcApp.java&#10;#&#9;Exercises/calculatorExceptions/Calculator.java&#10;#&#9;Exercises/calculatorExceptions/UnknownOperatorException.java&#10;#&#9;Exercises/cinema/CinemaSystem.java&#10;#&#9;Exercises/cinema/Client.java&#10;#&#9;Exercises/cinema/Movie.java&#10;#&#9;Exercises/cinema/SellingTickets.java&#10;#&#9;Exercises/cinema/Ticket.java&#10;#&#9;Exercises/cinema2/CinemaSystem.java&#10;#&#9;Exercises/cinema2/Client.java&#10;#&#9;Exercises/cinema2/Movie.java&#10;#&#9;Exercises/cinema2/SellingTickets.java&#10;#&#9;Exercises/cinema2/Ticket.java&#10;#&#9;Exercises/computerShop/Computer.java&#10;#&#9;Exercises/computerShop/DataStore.java&#10;#&#9;Exercises/computerShop/Shop.java&#10;#&#9;Exercises/data/Point.java&#10;#&#9;Exercises/discount/Client.java&#10;#&#9;Exercises/discount/DiscountApp.java&#10;#&#9;Exercises/discount/DiscountService.java&#10;#&#9;Exercises/discount/PrintService.java&#10;#&#9;Exercises/enumm/Order.java&#10;#&#9;Exercises/enumm/OrderStatus.java&#10;#&#9;Exercises/enumm/Pizza.java&#10;#&#9;Exercises/enumm/Pizzeria.java&#10;#&#9;Exercises/enumm/ShopManager.java&#10;#&#9;Exercises/exceptions/AgeViolationException.java&#10;#&#9;Exercises/exceptions/Competition.java&#10;#&#9;Exercises/exceptions/CompetitionApp.java&#10;#&#9;Exercises/exceptions/CompetitionControlle.java&#10;#&#9;Exercises/exceptions/DuplicateException.java&#10;#&#9;Exercises/exceptions/MaxCompetitorsException.java&#10;#&#9;Exercises/exceptions/Participant.java&#10;#&#9;Exercises/hospital/Hospital.java&#10;#&#9;Exercises/hospital/HospitalApp.java&#10;#&#9;Exercises/hospital/Patient.java&#10;#&#9;Exercises/hsopitalJavaStart/Doctor.java&#10;#&#9;Exercises/hsopitalJavaStart/Hospital.java&#10;#&#9;Exercises/hsopitalJavaStart/HospitalApp.java&#10;#&#9;Exercises/hsopitalJavaStart/Nurse.java&#10;#&#9;Exercises/hsopitalJavaStart/Person.java&#10;#&#9;Exercises/kuchenny/przelicznik/Kuchnia.java&#10;#&#9;Exercises/kuchenny/przelicznik/Przelicznik.java&#10;#&#9;Exercises/losowanie/Losowanie.java&#10;#&#9;Exercises/losowanie/LosowanieTest.java&#10;#&#9;Exercises/moneta/Moneta.java&#10;#&#9;Exercises/moneta/OrzelCzyReszka.java&#10;#&#9;Exercises/petle/For.java&#10;#&#9;Exercises/polimorfizm/AttackCharacter.java&#10;#&#9;Exercises/polimorfizm/BattleSimulator.java&#10;#&#9;Exercises/polimorfizm/DefenseCharacter.java&#10;#&#9;Exercises/polimorfizm/GameCharacter.java&#10;#&#9;Exercises/polimorfizm/GameSimulator.java&#10;#&#9;Exercises/polimorfizm/Team.java&#10;#&#9;Exercises/przeliczanie/Przeliczanie.java&#10;#&#9;Exercises/przeliczanie/ZamianaCzasu.java&#10;#&#9;Exercises/przeliczanie/ZamianaJednostek.java&#10;#&#9;Exercises/scanner/calc.java&#10;#&#9;Exercises/scanner/obliczenia.java&#10;#&#9;Exercises/string/ChangeLetters.java&#10;#&#9;Exercises/string/Words.java&#10;#&#9;Exercises/suma/Suma.java&#10;#&#9;Exercises/superka/Apple.java&#10;#&#9;Exercises/superka/Fruit.java&#10;#&#9;Exercises/superka/GroceryShop.java&#10;#&#9;Exercises/tables/Tables.java&#10;#&#9;Exercises/temperature/Temp.java&#10;#&#9;Exercises/temperature/TempClass.java&#10;#&#9;Exercises/universytet/Student.java&#10;#&#9;Exercises/universytet/Univers.java&#10;#&#9;Exercises/winda/Elevator.java&#10;#&#9;Exercises/winda/ElevatorSimulator.java&#10;#&#9;Exercises/winda/Person.java&#10;#&#9;Exercises/współrzędne/PointController.java&#10;#&#9;javastart.iml&#10;#&#9;out/production/javastart/Exercises/Calculator/Calculate.class&#10;#&#9;out/production/javastart/Exercises/Calculator/Calculator.class&#10;#&#9;out/production/javastart/Exercises/Comapany.class&#10;#&#9;out/production/javastart/Exercises/Dice/Dice.class&#10;#&#9;out/production/javastart/Exercises/Dice/DiceTest.class&#10;#&#9;out/production/javastart/Exercises/Dom/Dom.class&#10;#&#9;out/production/javastart/Exercises/Dom/DomTest.class&#10;#&#9;out/production/javastart/Exercises/EvenAdder.class&#10;#&#9;out/production/javastart/Exercises/InfoOroslinach.class&#10;#&#9;out/production/javastart/Exercises/Inheritance/ExhaustPart.class&#10;#&#9;out/production/javastart/Exercises/Inheritance/MotoShop.class&#10;#&#9;out/production/javastart/Exercises/Inheritance/Part.class&#10;#&#9;out/production/javastart/Exercises/Inheritance/Tire.class&#10;#&#9;out/production/javastart/Exercises/Inheritance2/Bootcamp.class&#10;#&#9;out/production/javastart/Exercises/Inheritance2/Course.class&#10;#&#9;out/production/javastart/Exercises/Inheritance2/OnlineCourse.class&#10;#&#9;out/production/javastart/Exercises/Inheritance2/StationaryCourse.class&#10;#&#9;out/production/javastart/Exercises/Inheritance2/Test.class&#10;#&#9;out/production/javastart/Exercises/KlasaZad1.class&#10;#&#9;out/production/javastart/Exercises/Netto.class&#10;#&#9;out/production/javastart/Exercises/Roślina.class&#10;#&#9;out/production/javastart/Exercises/Shop/Offer.class&#10;#&#9;out/production/javastart/Exercises/Shop/Product.class&#10;#&#9;out/production/javastart/Exercises/Shop/Shop.class&#10;#&#9;out/production/javastart/Exercises/Table/Sum.class&#10;#&#9;out/production/javastart/Exercises/Table/Table.class&#10;#&#9;out/production/javastart/Exercises/Zadanie1.class&#10;#&#9;out/production/javastart/Exercises/algorytmika/Start.class&#10;#&#9;out/production/javastart/Exercises/app/PointApplication.class&#10;#&#9;out/production/javastart/Exercises/aukcja/Adress.class&#10;#&#9;out/production/javastart/Exercises/aukcja/Auction.class&#10;#&#9;out/production/javastart/Exercises/aukcja/AuctionSystem.class&#10;#&#9;out/production/javastart/Exercises/aukcja/Seller.class&#10;#&#9;out/production/javastart/Exercises/auto/Car.class&#10;#&#9;out/production/javastart/Exercises/auto/CarCheck.class&#10;#&#9;out/production/javastart/Exercises/bank/Adress.class&#10;#&#9;out/production/javastart/Exercises/bank/Bank.class&#10;#&#9;out/production/javastart/Exercises/bank/BankAccount.class&#10;#&#9;out/production/javastart/Exercises/bank/Credit.class&#10;#&#9;out/production/javastart/Exercises/bank/Person.class&#10;#&#9;out/production/javastart/Exercises/bankEquals/Address.class&#10;#&#9;out/production/javastart/Exercises/bankEquals/BankAccount.class&#10;#&#9;out/production/javastart/Exercises/bankEquals/BankTest.class&#10;#&#9;out/production/javastart/Exercises/bankEquals/Client.class&#10;#&#9;out/production/javastart/Exercises/calculatorExceptions/CalcApp.class&#10;#&#9;out/production/javastart/Exercises/calculatorExceptions/Calculator.class&#10;#&#9;out/production/javastart/Exercises/calculatorExceptions/UnknownOperatorException.class&#10;#&#9;out/production/javastart/Exercises/cinema/CinemaSystem.class&#10;#&#9;out/production/javastart/Exercises/cinema/Client.class&#10;#&#9;out/production/javastart/Exercises/cinema/Movie.class&#10;#&#9;out/production/javastart/Exercises/cinema/SellingTickets.class&#10;#&#9;out/production/javastart/Exercises/cinema/Ticket.class&#10;#&#9;out/production/javastart/Exercises/cinema2/CinemaSystem.class&#10;#&#9;out/production/javastart/Exercises/cinema2/Client.class&#10;#&#9;out/production/javastart/Exercises/cinema2/Movie.class&#10;#&#9;out/production/javastart/Exercises/cinema2/SellingTickets.class&#10;#&#9;out/production/javastart/Exercises/cinema2/Ticket.class&#10;#&#9;out/production/javastart/Exercises/computerShop/Computer.class&#10;#&#9;out/production/javastart/Exercises/computerShop/DataStore.class&#10;#&#9;out/production/javastart/Exercises/computerShop/Shop.class&#10;#&#9;out/production/javastart/Exercises/data/Point.class&#10;#&#9;out/production/javastart/Exercises/discount/Client.class&#10;#&#9;out/production/javastart/Exercises/discount/DiscountApp.class&#10;#&#9;out/production/javastart/Exercises/discount/DiscountService.class&#10;#&#9;out/production/javastart/Exercises/discount/PrintService.class&#10;#&#9;out/production/javastart/Exercises/enumm/Order.class&#10;#&#9;out/production/javastart/Exercises/enumm/OrderStatus.class&#10;#&#9;out/production/javastart/Exercises/enumm/Pizza.class&#10;#&#9;out/production/javastart/Exercises/enumm/Pizzeria.class&#10;#&#9;out/production/javastart/Exercises/enumm/ShopManager.class&#10;#&#9;out/production/javastart/Exercises/exceptions/AgeViolationException.class&#10;#&#9;out/production/javastart/Exercises/exceptions/Competition.class&#10;#&#9;out/production/javastart/Exercises/exceptions/CompetitionApp.class&#10;#&#9;out/production/javastart/Exercises/exceptions/CompetitionController.class&#10;#&#9;out/production/javastart/Exercises/exceptions/DuplicateException.class&#10;#&#9;out/production/javastart/Exercises/exceptions/MaxCompetitorsException.class&#10;#&#9;out/production/javastart/Exercises/exceptions/Participant.class&#10;#&#9;out/production/javastart/Exercises/hospital/Hospital.class&#10;#&#9;out/production/javastart/Exercises/hospital/HospitalApp.class&#10;#&#9;out/production/javastart/Exercises/hospital/Patient.class&#10;#&#9;out/production/javastart/Exercises/hsopitalJavaStart/Doctor.class&#10;#&#9;out/production/javastart/Exercises/hsopitalJavaStart/Hospital.class&#10;#&#9;out/production/javastart/Exercises/hsopitalJavaStart/HospitalApp.class&#10;#&#9;out/production/javastart/Exercises/hsopitalJavaStart/Nurse.class&#10;#&#9;out/production/javastart/Exercises/hsopitalJavaStart/Person.class&#10;#&#9;out/production/javastart/Exercises/kuchenny/przelicznik/Kuchnia.class&#10;#&#9;out/production/javastart/Exercises/kuchenny/przelicznik/Przelicznik.class&#10;#&#9;out/production/javastart/Exercises/losowanie/Losowanie.class&#10;#&#9;out/production/javastart/Exercises/losowanie/LosowanieTest.class&#10;#&#9;out/production/javastart/Exercises/moneta/Moneta.class&#10;#&#9;out/production/javastart/Exercises/moneta/OrzelCzyReszka.class&#10;#&#9;out/production/javastart/Exercises/petle/For.class&#10;#&#9;out/production/javastart/Exercises/polimorfizm/AttackCharacter.class&#10;#&#9;out/production/javastart/Exercises/polimorfizm/BattleSimulator.class&#10;#&#9;out/production/javastart/Exercises/polimorfizm/DefenseCharacter.class&#10;#&#9;out/production/javastart/Exercises/polimorfizm/GameCharacter.class&#10;#&#9;out/production/javastart/Exercises/polimorfizm/GameSimulator.class&#10;#&#9;out/production/javastart/Exercises/polimorfizm/Team.class&#10;#&#9;out/production/javastart/Exercises/przeliczanie/Przeliczanie.class&#10;#&#9;out/production/javastart/Exercises/przeliczanie/ZamianaCzasu.class&#10;#&#9;out/production/javastart/Exercises/przeliczanie/ZamianaJednostek.class&#10;#&#9;out/production/javastart/Exercises/scanner/calc.class&#10;#&#9;out/production/javastart/Exercises/scanner/obliczenia.class&#10;#&#9;out/production/javastart/Exercises/string/ChangeLetters.class&#10;#&#9;out/production/javastart/Exercises/string/Words.class&#10;#&#9;out/production/javastart/Exercises/suma/Suma.class&#10;#&#9;out/production/javastart/Exercises/superka/Apple.class&#10;#&#9;out/production/javastart/Exercises/superka/Fruit.class&#10;#&#9;out/production/javastart/Exercises/superka/GroceryShop.class&#10;#&#9;out/production/javastart/Exercises/tables/Tables.class&#10;#&#9;out/production/javastart/Exercises/temperature/Temp.class&#10;#&#9;out/production/javastart/Exercises/temperature/TempClass.class&#10;#&#9;out/production/javastart/Exercises/universytet/Student.class&#10;#&#9;out/production/javastart/Exercises/universytet/Univers.class&#10;#&#9;out/production/javastart/Exercises/winda/Elevator.class&#10;#&#9;out/production/javastart/Exercises/winda/ElevatorSimulator.class&#10;#&#9;out/production/javastart/Exercises/winda/Person.class&#10;#&#9;out/production/javastart/Exercises/współrzędne/PointController.class&#10;#&#9;out/production/javastart/pl/javastart/application/PhoneTest.class&#10;#&#9;out/production/javastart/pl/javastart/library/app/LibraryApp.class&#10;#&#9;out/production/javastart/pl/javastart/logic/Charger.class&#10;#&#9;out/production/javastart/pl/javastart/model/model/Telephone.class&#10;#&#9;pl/javastart/application/PhoneTest.java&#10;#&#9;pl/javastart/library/app/LibraryApp.java&#10;#&#9;pl/javastart/library/io/DataReader.java&#10;#&#9;pl/javastart/library/model/Book.java&#10;#&#9;pl/javastart/library/model/Publication.java&#10;#&#9;pl/javastart/logic/Charger.java&#10;#&#9;pl/javastart/model/model/Telephone.java">
+      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercises/ZapisOdczyt/CleintExplorer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercises/ZapisOdczyt/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercises/ZapisOdczyt/ClientDataReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercises/ZapisOdczyt/WordStatistics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercises/ZapisOdczyt/clients.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercises/ZapisOdczyt/numbersReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercises/abstarctClassInterface/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercises/abstarctClassInterface/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercises/abstarctClassInterface/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercises/abstarctClassInterface/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercises/abstarctClassInterface/ShapeCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercises/abstarctClassInterface/Triangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercises/addingNumbers/SumNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercises/addingProducts/Products.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercises/addingProducts/ProductsManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercises/addingProducts/ProductsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercises/company/Company.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercises/company/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercises/company/FullTimeEmployee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercises/company/PartTimeEmployee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercises/comparator/Numbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercises/dataTime/Date.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercises/dataTime/Stoper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercises/divide/ListOfNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercises/iterators/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercises/iterators/PersonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercises/klasaAnonimowa/ArraySorter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercises/klasaAnonimowa/Sortable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercises/lambda/FunctionTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercises/lotto/Lotto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercises/lotto/LottoGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercises/maps/Company.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercises/maps/CompanyApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercises/maps/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercises/mapsFromFile/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercises/mapsFromFile/ProductImporter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercises/mapsFromFile/ProductManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercises/musicSongs/MusicCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercises/musicSongs/Song.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercises/namesReader/NamesReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercises/offers/Offer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercises/offers/OfferApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercises/offers/OfferReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercises/referencjeDoMetody/SimpleStringComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercises/serializable/Company.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercises/serializable/CompanyApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercises/serializable/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercises/serializable/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercises/silnia/Silnia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercises/stream/NumbersStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercises/streamcd/LoremIpsum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercises/toDoList/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercises/toDoList/TaskManagerApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercises/toDoList/TaskMenager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercises/typyGeneryczne/Pair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercises/typyGeneryczne/PairTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercises/wordsRemover/WordsRemover.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Library.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Library.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Library_users.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DriverManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clients.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lorem.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/javastart/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/javastart/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/javastart/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/javastart/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/javastart/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/ZapisOdczyt/CleintExplorer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/ZapisOdczyt/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/ZapisOdczyt/ClientDataReader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/ZapisOdczyt/WordStatistics$DigitNotFoundException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/ZapisOdczyt/WordStatistics.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/ZapisOdczyt/clients.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/ZapisOdczyt/numbersReader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/abstarctClassInterface/Circle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/abstarctClassInterface/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/abstarctClassInterface/Rectangle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/abstarctClassInterface/Shape.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/abstarctClassInterface/ShapeCalculator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/abstarctClassInterface/Triangle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/addingNumbers/SumNumbers.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/addingProducts/Products.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/addingProducts/ProductsManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/addingProducts/ProductsTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/bankEquals/Address.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/company/Company.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/company/Employee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/company/FullTimeEmployee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/company/PartTimeEmployee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/comparator/Numbers$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/comparator/Numbers.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/divide/ListOfNumbers.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/iterators/Person.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/iterators/PersonTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/klasaAnonimowa/ArraySorter$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/klasaAnonimowa/ArraySorter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/klasaAnonimowa/Sortable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/lambda/FunctionTask.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/lotto/Lotto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/lotto/LottoGame.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/maps/Company.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/maps/CompanyApp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/maps/Employee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/mapsFromFile/Product.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/mapsFromFile/ProductImporter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/mapsFromFile/ProductManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/namesReader/NamesReader$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/namesReader/NamesReader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/offers/Offer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/offers/OfferApp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/offers/OfferReader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/referencjeDoMetody/SimpleStringComparator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/serializable/Company.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/serializable/CompanyApp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/serializable/Employee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/serializable/Person.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/silnia/Silnia.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/stream/NumbersStream.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/toDoList/Task$Priority.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/toDoList/Task.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/toDoList/TaskManagerApp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/toDoList/TaskMenager$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/toDoList/TaskMenager$Option.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/toDoList/TaskMenager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/typyGeneryczne/Pair.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/typyGeneryczne/PairTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/wordsRemover/WordsRemover.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/javastart/Library.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/javastart/Library.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/javastart/Library_users.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/javastart/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/javastart/clients.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/javastart/javastart.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/javastart/pl/javastart/library/app/LibraryControl$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/javastart/pl/javastart/library/app/LibraryControl$Option.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/javastart/pl/javastart/library/app/LibraryControl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/javastart/pl/javastart/library/exceptions/DataExportException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/javastart/pl/javastart/library/exceptions/DataImportException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/javastart/pl/javastart/library/exceptions/InvalidDataException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/javastart/pl/javastart/library/exceptions/NoSuchFileTypeException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/javastart/pl/javastart/library/exceptions/NoSuchOptionException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/javastart/pl/javastart/library/exceptions/PublicationAlreadyExistException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/javastart/pl/javastart/library/exceptions/UserAlreadyExistException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/javastart/pl/javastart/library/io/ConsolePrinter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/javastart/pl/javastart/library/io/DataReader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/javastart/pl/javastart/library/io/file/CsvFileManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/javastart/pl/javastart/library/io/file/FileManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/javastart/pl/javastart/library/io/file/FileManagerBuilder$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/javastart/pl/javastart/library/io/file/FileManagerBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/javastart/pl/javastart/library/io/file/FileType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/javastart/pl/javastart/library/io/file/SerializableFileManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/javastart/pl/javastart/library/model/Book.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/javastart/pl/javastart/library/model/CsvConvertible.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/javastart/pl/javastart/library/model/Library.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/javastart/pl/javastart/library/model/LibraryUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/javastart/pl/javastart/library/model/Magazine.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/javastart/pl/javastart/library/model/Publication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/javastart/pl/javastart/library/model/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pl/javastart/library/app/LibraryControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pl/javastart/library/exceptions/DataExportException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pl/javastart/library/exceptions/DataImportException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pl/javastart/library/exceptions/InvalidDataException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pl/javastart/library/exceptions/NoSuchFileTypeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pl/javastart/library/exceptions/NoSuchOptionException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pl/javastart/library/exceptions/PublicationAlreadyExistException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pl/javastart/library/exceptions/UserAlreadyExistException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pl/javastart/library/io/ConsolePrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pl/javastart/library/io/file/CsvFileManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pl/javastart/library/io/file/FileManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pl/javastart/library/io/file/FileManagerBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pl/javastart/library/io/file/FileType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pl/javastart/library/io/file/SerializableFileManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pl/javastart/library/model/CsvConvertible.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pl/javastart/library/model/Library.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pl/javastart/library/model/LibraryUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pl/javastart/library/model/Magazine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pl/javastart/library/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/Calculator/Calculate.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/Calculator/Calculate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/Calculator/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/Calculator/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/Comapany.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/Comapany.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/Dice/Dice.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/Dice/Dice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/Dice/DiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/Dice/DiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/Dom/Dom.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/Dom/Dom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/Dom/DomTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/Dom/DomTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/EvenAdder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/EvenAdder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/InfoOroslinach.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/InfoOroslinach.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/Inheritance/ExhaustPart.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/Inheritance/ExhaustPart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/Inheritance/MotoShop.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/Inheritance/MotoShop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/Inheritance/Part.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/Inheritance/Part.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/Inheritance/Tire.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/Inheritance/Tire.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/Inheritance2/Bootcamp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/Inheritance2/Bootcamp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/Inheritance2/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/Inheritance2/Course.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/Inheritance2/OnlineCourse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/Inheritance2/OnlineCourse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/Inheritance2/StationaryCourse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/Inheritance2/StationaryCourse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/Inheritance2/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/Inheritance2/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/KlasaZad1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/KlasaZad1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/Netto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/Netto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/Roślina.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/Roślina.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/Shop/Offer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/Shop/Offer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/Shop/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/Shop/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/Shop/Shop.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/Shop/Shop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/Table/Sum.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/Table/Sum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/Table/Table.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/Table/Table.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/Zadanie1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/Zadanie1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/algorytmika/Start.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/algorytmika/Start.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/app/PointApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/app/PointApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/aukcja/Adress.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/aukcja/Adress.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/aukcja/Auction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/aukcja/Auction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/aukcja/AuctionSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/aukcja/AuctionSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/aukcja/Seller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/aukcja/Seller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/auto/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/auto/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/auto/CarCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/auto/CarCheck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/bank/Adress.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/bank/Adress.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/bank/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/bank/Bank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/bank/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/bank/BankAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/bank/Credit.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/bank/Credit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/bank/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/bank/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/bankEquals/Adress.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/bankEquals/Adress.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/bankEquals/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/bankEquals/BankAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/bankEquals/BankTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/bankEquals/BankTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/bankEquals/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/bankEquals/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/calculatorExceptions/CalcApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/calculatorExceptions/CalcApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/calculatorExceptions/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/calculatorExceptions/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/calculatorExceptions/UnknownOperatorException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/calculatorExceptions/UnknownOperatorException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/cinema/CinemaSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/cinema/CinemaSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/cinema/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/cinema/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/cinema/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/cinema/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/cinema/SellingTickets.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/cinema/SellingTickets.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/cinema/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/cinema/Ticket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/cinema2/CinemaSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/cinema2/CinemaSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/cinema2/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/cinema2/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/cinema2/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/cinema2/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/cinema2/SellingTickets.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/cinema2/SellingTickets.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/cinema2/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/cinema2/Ticket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/computerShop/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/computerShop/Computer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/computerShop/DataStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/computerShop/DataStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/computerShop/Shop.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/computerShop/Shop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/data/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/data/Point.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/discount/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/discount/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/discount/DiscountApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/discount/DiscountApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/discount/DiscountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/discount/DiscountService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/discount/PrintService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/discount/PrintService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/enumm/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/enumm/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/enumm/OrderStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/enumm/OrderStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/enumm/Pizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/enumm/Pizza.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/enumm/Pizzeria.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/enumm/Pizzeria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/enumm/ShopManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/enumm/ShopManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/exceptions/AgeViolationException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/exceptions/AgeViolationException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/exceptions/Competition.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/exceptions/Competition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/exceptions/CompetitionApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/exceptions/CompetitionApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/exceptions/CompetitionControlle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/exceptions/CompetitionControlle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/exceptions/DuplicateException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/exceptions/DuplicateException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/exceptions/MaxCompetitorsException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/exceptions/MaxCompetitorsException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/exceptions/Participant.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/exceptions/Participant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/hospital/Hospital.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/hospital/Hospital.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/hospital/HospitalApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/hospital/HospitalApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/hospital/Patient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/hospital/Patient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/hsopitalJavaStart/Doctor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/hsopitalJavaStart/Doctor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/hsopitalJavaStart/Hospital.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/hsopitalJavaStart/Hospital.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/hsopitalJavaStart/HospitalApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/hsopitalJavaStart/HospitalApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/hsopitalJavaStart/Nurse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/hsopitalJavaStart/Nurse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/hsopitalJavaStart/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/hsopitalJavaStart/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/kuchenny/przelicznik/Kuchnia.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/kuchenny/przelicznik/Kuchnia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/kuchenny/przelicznik/Przelicznik.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/kuchenny/przelicznik/Przelicznik.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/losowanie/Losowanie.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/losowanie/Losowanie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/losowanie/LosowanieTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/losowanie/LosowanieTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/moneta/Moneta.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/moneta/Moneta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/moneta/OrzelCzyReszka.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/moneta/OrzelCzyReszka.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/petle/For.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/petle/For.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/polimorfizm/AttackCharacter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/polimorfizm/AttackCharacter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/polimorfizm/BattleSimulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/polimorfizm/BattleSimulator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/polimorfizm/DefenseCharacter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/polimorfizm/DefenseCharacter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/polimorfizm/GameCharacter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/polimorfizm/GameCharacter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/polimorfizm/GameSimulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/polimorfizm/GameSimulator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/polimorfizm/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/polimorfizm/Team.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/przeliczanie/Przeliczanie.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/przeliczanie/Przeliczanie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/przeliczanie/ZamianaCzasu.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/przeliczanie/ZamianaCzasu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/przeliczanie/ZamianaJednostek.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/przeliczanie/ZamianaJednostek.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/scanner/calc.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/scanner/calc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/scanner/obliczenia.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/scanner/obliczenia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/string/ChangeLetters.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/string/ChangeLetters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/string/Words.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/string/Words.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/suma/Suma.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/suma/Suma.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/superka/Apple.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/superka/Apple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/superka/Fruit.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/superka/Fruit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/superka/GroceryShop.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/superka/GroceryShop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/tables/Tables.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/tables/Tables.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/temperature/Temp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/temperature/Temp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/temperature/TempClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/temperature/TempClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/universytet/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/universytet/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/universytet/Univers.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/universytet/Univers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/winda/Elevator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/winda/Elevator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/winda/ElevatorSimulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/winda/ElevatorSimulator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/winda/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/winda/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/współrzędne/PointController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/współrzędne/PointController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javastart.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../javastart.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/Calculator/Calculate.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/Calculator/Calculate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/Calculator/Calculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/Calculator/Calculator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/Comapany.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/Comapany.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/Dice/Dice.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/Dice/Dice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/Dice/DiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/Dice/DiceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/Dom/Dom.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/Dom/Dom.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/Dom/DomTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/Dom/DomTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/EvenAdder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/EvenAdder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/InfoOroslinach.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/InfoOroslinach.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/Inheritance/ExhaustPart.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/Inheritance/ExhaustPart.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/Inheritance/MotoShop.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/Inheritance/MotoShop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/Inheritance/Part.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/Inheritance/Part.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/Inheritance/Tire.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/Inheritance/Tire.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/Inheritance2/Bootcamp.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/Inheritance2/Bootcamp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/Inheritance2/Course.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/Inheritance2/Course.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/Inheritance2/OnlineCourse.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/Inheritance2/OnlineCourse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/Inheritance2/StationaryCourse.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/Inheritance2/StationaryCourse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/Inheritance2/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/Inheritance2/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/KlasaZad1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/KlasaZad1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/Netto.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/Netto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/Roślina.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/Roślina.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/Shop/Offer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/Shop/Offer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/Shop/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/Shop/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/Shop/Shop.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/Shop/Shop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/Table/Sum.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/Table/Sum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/Table/Table.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/Table/Table.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/Zadanie1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/Zadanie1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/algorytmika/Start.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/algorytmika/Start.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/app/PointApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/app/PointApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/aukcja/Adress.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/aukcja/Adress.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/aukcja/Auction.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/aukcja/Auction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/aukcja/AuctionSystem.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/aukcja/AuctionSystem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/aukcja/Seller.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/aukcja/Seller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/auto/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/auto/Car.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/auto/CarCheck.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/auto/CarCheck.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/bank/Adress.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/bank/Adress.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/bank/Bank.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/bank/Bank.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/bank/BankAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/bank/BankAccount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/bank/Credit.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/bank/Credit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/bank/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/bank/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/bankEquals/BankAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/bankEquals/BankAccount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/bankEquals/BankTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/bankEquals/BankTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/bankEquals/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/bankEquals/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/calculatorExceptions/CalcApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/calculatorExceptions/CalcApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/calculatorExceptions/Calculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/calculatorExceptions/Calculator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/calculatorExceptions/UnknownOperatorException.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/calculatorExceptions/UnknownOperatorException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/cinema/CinemaSystem.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/cinema/CinemaSystem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/cinema/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/cinema/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/cinema/Movie.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/cinema/Movie.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/cinema/SellingTickets.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/cinema/SellingTickets.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/cinema/Ticket.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/cinema/Ticket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/cinema2/CinemaSystem.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/cinema2/CinemaSystem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/cinema2/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/cinema2/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/cinema2/Movie.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/cinema2/Movie.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/cinema2/SellingTickets.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/cinema2/SellingTickets.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/cinema2/Ticket.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/cinema2/Ticket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/computerShop/Computer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/computerShop/Computer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/computerShop/DataStore.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/computerShop/DataStore.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/computerShop/Shop.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/computerShop/Shop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/data/Point.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/data/Point.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/discount/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/discount/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/discount/DiscountApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/discount/DiscountApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/discount/DiscountService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/discount/DiscountService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/discount/PrintService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/discount/PrintService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/enumm/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/enumm/Order.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/enumm/OrderStatus.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/enumm/OrderStatus.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/enumm/Pizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/enumm/Pizza.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/enumm/Pizzeria.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/enumm/Pizzeria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/enumm/ShopManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/enumm/ShopManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/exceptions/AgeViolationException.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/exceptions/AgeViolationException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/exceptions/Competition.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/exceptions/Competition.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/exceptions/CompetitionApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/exceptions/CompetitionApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/exceptions/CompetitionController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/exceptions/CompetitionController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/exceptions/DuplicateException.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/exceptions/DuplicateException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/exceptions/MaxCompetitorsException.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/exceptions/MaxCompetitorsException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/exceptions/Participant.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/exceptions/Participant.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/hospital/Hospital.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/hospital/Hospital.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/hospital/HospitalApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/hospital/HospitalApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/hospital/Patient.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/hospital/Patient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/hsopitalJavaStart/Doctor.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/hsopitalJavaStart/Doctor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/hsopitalJavaStart/Hospital.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/hsopitalJavaStart/Hospital.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/hsopitalJavaStart/HospitalApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/hsopitalJavaStart/HospitalApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/hsopitalJavaStart/Nurse.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/hsopitalJavaStart/Nurse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/hsopitalJavaStart/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/hsopitalJavaStart/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/kuchenny/przelicznik/Kuchnia.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/kuchenny/przelicznik/Kuchnia.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/kuchenny/przelicznik/Przelicznik.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/kuchenny/przelicznik/Przelicznik.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/losowanie/Losowanie.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/losowanie/Losowanie.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/losowanie/LosowanieTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/losowanie/LosowanieTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/moneta/Moneta.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/moneta/Moneta.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/moneta/OrzelCzyReszka.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/moneta/OrzelCzyReszka.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/petle/For.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/petle/For.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/polimorfizm/AttackCharacter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/polimorfizm/AttackCharacter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/polimorfizm/BattleSimulator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/polimorfizm/BattleSimulator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/polimorfizm/DefenseCharacter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/polimorfizm/DefenseCharacter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/polimorfizm/GameCharacter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/polimorfizm/GameCharacter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/polimorfizm/GameSimulator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/polimorfizm/GameSimulator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/polimorfizm/Team.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/polimorfizm/Team.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/przeliczanie/Przeliczanie.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/przeliczanie/Przeliczanie.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/przeliczanie/ZamianaCzasu.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/przeliczanie/ZamianaCzasu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/przeliczanie/ZamianaJednostek.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/przeliczanie/ZamianaJednostek.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/scanner/calc.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/scanner/calc.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/scanner/obliczenia.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/scanner/obliczenia.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/string/ChangeLetters.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/string/ChangeLetters.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/string/Words.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/string/Words.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/suma/Suma.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/suma/Suma.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/superka/Apple.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/superka/Apple.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/superka/Fruit.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/superka/Fruit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/superka/GroceryShop.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/superka/GroceryShop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/tables/Tables.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/tables/Tables.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/temperature/Temp.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/temperature/Temp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/temperature/TempClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/temperature/TempClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/universytet/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/universytet/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/universytet/Univers.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/universytet/Univers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/winda/Elevator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/winda/Elevator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/winda/ElevatorSimulator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/winda/ElevatorSimulator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/winda/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/winda/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/Exercises/współrzędne/PointController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/Exercises/współrzędne/PointController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/pl/javastart/application/PhoneTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/pl/javastart/application/PhoneTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/pl/javastart/library/app/LibraryApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/pl/javastart/library/app/LibraryApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/pl/javastart/logic/Charger.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/pl/javastart/logic/Charger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/javastart/pl/javastart/model/model/Telephone.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/javastart/pl/javastart/model/model/Telephone.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pl/javastart/application/PhoneTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pl/javastart/application/PhoneTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pl/javastart/library/app/LibraryApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pl/javastart/library/app/LibraryApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pl/javastart/library/io/DataReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pl/javastart/library/io/DataReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pl/javastart/library/model/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pl/javastart/library/model/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pl/javastart/library/model/Publication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pl/javastart/library/model/Publication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pl/javastart/logic/Charger.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pl/javastart/logic/Charger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pl/javastart/model/model/Telephone.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pl/javastart/model/model/Telephone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../testerAutomat/src/alkoTest.java" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/DriverManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/DriverManager.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1708" />
+    <option name="width" value="1734" />
+    <option name="height" value="1407" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="medicoverAuto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MedicoverAuto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="medicoverAuto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MedicoverAuto" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="medicoverAuto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MedicoverAuto" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="medicoverAuto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MedicoverAuto" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ad3caeee-d26e-4e8f-975e-db5a6a518ca3" name="Default Changelist" comment="" />
+      <created>1663694251562</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1663694251562</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1708" y="0" width="1734" height="1407" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24970132" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DriverManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>12</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
