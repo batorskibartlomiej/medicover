@@ -49,7 +49,7 @@ public class LoginPage {
 
 
         name.click();
-        name.sendKeys("159408903");
+        name.sendKeys("15940890300");
         password.click();
         password.sendKeys("***!");
         return this;
