@@ -2,6 +2,7 @@ package pageobjects;
 
 import driver.DriverManager;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.WindowType;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import waits.WaitForElement;
@@ -19,6 +20,10 @@ public class LoginPage {
     private WebElement password;
     @FindBy(id="loginBtn")
     private WebElement loginBtn;
+    @FindBy(xpath = "//*[@id='personal-data']/div[1]/div/input")
+    private WebElement phoneNUmber;
+
+
 
     public LoginPage(){
         PageFactory.initElements(DriverManager.getWebDriver(),this);
@@ -26,9 +31,9 @@ public class LoginPage {
 
 
 
-    public LoginPage loginToProfile() throws InterruptedException {
+    public LoginPage loginToProfile() {
         rightLogin.click();
-        Thread.sleep(4000);
+        //Thread.sleep(4000);
         return this;
 
     }
@@ -44,14 +49,34 @@ public class LoginPage {
 
 
         name.click();
-        name.sendKeys("1594089909");
+        name.sendKeys("159408903");
         password.click();
-        password.sendKeys("****");
+        password.sendKeys("***!");
         return this;
     }
 
-    public void clickLoginBtn(){
+    public OnMySite clickLoginBtn() throws InterruptedException {
         loginBtn.click();
+        Thread.sleep(4000);
+        //Switching to new window
+//        String currentTabHandle = DriverManager.getWebDriver().getWindowHandle();
+//        String newTabHandle = DriverManager.getWebDriver().getWindowHandles()
+//                .stream()
+//                .filter(handle -> !handle.equals(currentTabHandle ))
+//                .findFirst()
+//                .get();
+//        DriverManager.getWebDriver().switchTo().window(newTabHandle);
+        //DriverManager.getWebDriver().switchTo().newWindow(WindowType.WINDOW);
+
+
+
+        return new OnMySite();
     }
+
+    public void  clickPhoneNumber(){
+        WaitForElement.waitUntilElemembtIsVisible(phoneNUmber);
+        phoneNUmber.click();
+    }
+
 
 }

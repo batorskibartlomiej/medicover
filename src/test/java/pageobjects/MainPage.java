@@ -12,6 +12,11 @@ public class MainPage {
 
     @FindBy(className = "login-widget-button-login")
     private WebElement logIn;
+    @FindBy(id="ie8UpAndOthers")
+    private WebElement test;
+
+
+
 
     public MainPage() {
 
@@ -22,6 +27,10 @@ public class MainPage {
     public LoginPage logIn(){
         logIn.click();
         return new LoginPage();
+    }
+
+    public void clickTest(){
+        test.click();
     }
 
 
